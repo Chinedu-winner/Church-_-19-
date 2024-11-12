@@ -1,0 +1,21 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+.keeper{
+    margin-top: 50px;
+}
+.keeper input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(16, 22, 78, 95);
+}
+.keeper p {
+    font-size: 40px;
+}
+.keeper button {
+    padding: 10px;
+    border-radius: 10px;
+
+}
