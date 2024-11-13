@@ -3,13 +3,17 @@
     padding: 0px;
     box-sizing:  border-box;
 }
+body{
+    background-color: blue;
+}
 .keeper{
     margin-top: 50px;
+    margin-left: 500px;
 }
 .keeper input{
     padding: 10px;
     border-radius: 10px;
-    background-color:  rgba(16, 22, 78, 95);
+    background-color:  white;
 }
 .keeper p {
     font-size: 40px;

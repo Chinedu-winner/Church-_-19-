@@ -18,8 +18,8 @@ return (
     <>
     <div className='keeper'>
         <p>Input  your home address</p>
-    <input type="text" placeholder='Enter your address' value={item} name="" id="" onChange={(e) =>setitem(e.target.value)}/>    
-    <input type="number" placeholder='Enter your Phone Number' value={item} name="" id="" onChange={(e) =>setitem(e.target.value)}/>
+    <input type="text" placeholder='Enter your address' value={item}  onChange={(e) =>setitem(e.target.value)}/>    
+    <input type="number" placeholder='Enter your Phone Number' value={item} onChange={(e) =>setitem(e.target.value)}/>
     <button onClick={submitIt}>Submit It</button>
     </div>
     </>
