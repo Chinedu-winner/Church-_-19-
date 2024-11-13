@@ -54,6 +54,7 @@ app.post(`submit`, (res, req,)=>{
     console.log('Recieved data', req.body);
     const form = new userModel(req.body)
     form.save()
+    
 }) 
 app.listen(PORT, () =>{
     console.log(`Move on! Server has started at ${PORT}`);

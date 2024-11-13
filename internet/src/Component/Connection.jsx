@@ -17,9 +17,10 @@ const Connection =() => {
 return (
     <>
     <div className='keeper'>
-        <p>Input  your home address</p>
+    <p>Input  your home address</p>
     <input type="text" placeholder='Enter your address' value={item}  onChange={(e) =>setitem(e.target.value)}/>    
     <input type="number" placeholder='Enter your Phone Number' value={item} onChange={(e) =>setitem(e.target.value)}/>
+    <img src="./" alt=""/>
     <button onClick={submitIt}>Submit It</button>
     </div>
     </>
